@@ -1,18 +1,18 @@
-const adjectives = require('./adjectives'),
-	animals = require('./animals');
+const adjectives = require('./adjectives')
+const animals = require('./animals')
 
 module.exports = {
-	generateCombination(numAdjectives, delimiter, capitalizeFirstLetter) {
+	generateCombination(numAdjectives, delimiter) {
 		let combination = '';
-		const animal = animals[Math.floor(Math.random() * animals.length)];
+		const animal = animals[Math.floor(Math.random() * animals.length)]
 
 		for (let i = 0; i < numAdjectives; i++) {
-			const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+			const adjective = adjectives[Math.floor(Math.random() * adjectives.length)]
 
-			combination += capitalizeFirstLetter ? adjective.charAt(0).toUpperCase() + adjective.slice(1) + delimiter : adjective + delimiter;
+			combination += adjective + delimiter
 		}
 
-		combination += capitalizeFirstLetter ? animal.charAt(0).toUpperCase() + animal.slice(1) : animal;
-		return combination;
+		combination += animal
+		return combination
 	}
 };

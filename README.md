@@ -5,10 +5,9 @@ This repository generates animal/adjective string combinations, useful for creat
 Simple usage:
 
 generateCombination(numAdjectives, delimiter, capitalizeFirstLetter) numAdjectives is the number of randomly generated adjectives you'd like the animal to be
-preceded by. delimiter is a string to put between each randomly chosen word, like "_" or "-". capitalizeFirstLetter is a boolean to capitalize the first letter
-of every adjective and animal (default: false).
+preceded by. delimiter is a string to put between each randomly chosen word, like "_" or "-".
 
     Examples:
-	generateCombination(2, "") -> curiousredCrow
-	generateCombination(4, "_") -> tranquil_sneaky_juicy_electric_Gerbil
+	generateCombination(2, "") -> CuriousRedCrow
+	generateCombination(4, "_") -> Tranquil_Sneaky_Juicy_Electric_Gerbil
 	generateCombination(3, "%", true) -> Sleepy%Smelly%Stinky%Skunk
