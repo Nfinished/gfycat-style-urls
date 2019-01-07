@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dexo568/gfycat-style-urls.git"
+    "url": "git+https://github.com/nfinished/gfycat-style-urls.git"
   },
   "keywords": [
     "url",
@@ -19,10 +19,10 @@
     "string",
     "id"
   ],
-  "author": "dexo568",
+  "author": "nfinished",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dexo568/gfycat-style-urls/issues"
+    "url": "https://github.com/nfinished/gfycat-style-urls/issues"
   },
-  "homepage": "https://github.com/dexo568/gfycat-style-urls#readme"
+  "homepage": "https://github.com/nfinished/gfycat-style-urls#readme"
 }
