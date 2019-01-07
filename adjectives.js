@@ -855,6 +855,7 @@ module.exports = [
 	'Seemly',
 	'Selective',
 	'Selfish',
+	'Semantic',
 	'Separate',
 	'Serious',
 	'Sexy',
